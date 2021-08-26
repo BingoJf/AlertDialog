@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BingoCommon</string>
+
+    <string name="AlerDialogTitle">提示</string>
+    <string name="AlerDialogContext">默认内容</string>
+    <string name="AlerDialogConfrim">确认</string>
+    <string name="AlerDialogCacel">取消</string>
+
+</resources>
