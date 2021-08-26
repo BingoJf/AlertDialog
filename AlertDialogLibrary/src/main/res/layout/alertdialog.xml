@@ -56,7 +56,7 @@
         android:orientation="horizontal">
 
         <RelativeLayout
-            android:id="@+id/btnCacelRelativeLayout"
+            android:id="@+id/btnCancelRelativeLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">

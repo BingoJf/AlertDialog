@@ -30,7 +30,7 @@ public class AlertDialog {
     private RelativeLayout txtMsgRelativeLayout;
     private TextView txtMsg;
 
-    private RelativeLayout btnCacelRelativeLayout;
+    private RelativeLayout btnCancelRelativeLayout;
     private Button BtnCancel;
     private RelativeLayout btnConfirmRelativeLayout;
     private Button btnConfirm;
@@ -84,9 +84,9 @@ public class AlertDialog {
             btnConfirmRelativeLayout.setVisibility(View.GONE);
         btnConfirm = view.findViewById(R.id.btnConfirm);
 
-        btnCacelRelativeLayout = view.findViewById(R.id.btnCacelRelativeLayout);
-        if(null!=btnCacelRelativeLayout)
-            btnCacelRelativeLayout.setVisibility(View.GONE);
+        btnCancelRelativeLayout = view.findViewById(R.id.btnCancelRelativeLayout);
+        if(null!=btnCancelRelativeLayout)
+            btnCancelRelativeLayout.setVisibility(View.GONE);
         BtnCancel = view.findViewById(R.id.BtnCancel);
 
         imgLine = view.findViewById(R.id.imgLine);
@@ -313,8 +313,8 @@ public class AlertDialog {
             if(null!=btnConfirmRelativeLayout)
                 btnConfirmRelativeLayout.setVisibility(View.VISIBLE);
 
-            if(null!=btnCacelRelativeLayout)
-                btnCacelRelativeLayout.setVisibility(View.VISIBLE);
+            if(null!=btnCancelRelativeLayout)
+                btnCancelRelativeLayout.setVisibility(View.VISIBLE);
 
             if(null!=imgLine)
                 imgLine.setVisibility(View.VISIBLE);
@@ -326,8 +326,8 @@ public class AlertDialog {
         }
 
         if (!showConfirmBtn && showCancelBtn) {
-            if(null!=btnCacelRelativeLayout)
-                btnCacelRelativeLayout.setVisibility(View.VISIBLE);
+            if(null!=btnCancelRelativeLayout)
+                btnCancelRelativeLayout.setVisibility(View.VISIBLE);
         }
     }
 
