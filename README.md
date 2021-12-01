@@ -1,5 +1,3 @@
-# AlertDialog
-
 ### 项目层级&&build.gradle
 ```    
 allprojects {
@@ -14,7 +12,7 @@ allprojects {
 ```
 dependencies {
     ......
-    implementation 'com.github.BingoJf:AlertDialog:1.0'
+    implementation 'com.github.BingoZzzzzz:AlertDialog:1.0'
 }
 ```
     
