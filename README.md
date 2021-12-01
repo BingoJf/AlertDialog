@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/BingoZzzzzz/AlertDialog.svg)](https://jitpack.io/#BingoZzzzzz/AlertDialog)
+
 ### 项目层级&&build.gradle
 ```    
 allprojects {
